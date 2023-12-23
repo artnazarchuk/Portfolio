@@ -61,20 +61,21 @@ p {
     margin: 0px auto;
     background: var(--bg-color);
 }
+/*
 @media all and (max-width: 1200px) {
     .container{
         width: max-content;
         max-width: 1006px;
     }
 }
-
+*/
 .inner-container {
-    max-width: 1006px;
+
     margin: 0px auto;
     padding-left: 40px;
     padding-right: 40px;
 }
-
+/*
 @media all and (max-width: 1200px) {
     .inner-container{
         max-width: 1200px;
@@ -82,7 +83,7 @@ p {
         margin-left: 30px;
     }
 }
-
+*/
 .header-container {
     display: flex;
     align-items: center;
@@ -95,7 +96,6 @@ p {
 
 .logo {
     padding-top: 20px;
-    width: 61px:
     height: 65px;
     margin-left: 120px;
 }
@@ -108,7 +108,6 @@ p {
     list-style: none;
     display: flex;
     margin-right: 125px;
-
 }
 
 .nav-link {
@@ -147,14 +146,14 @@ p {
 .resume > div > p {
     margin-bottom: 36px;
 }
-
+/*
 @media all and (max-width: 800px) {
     .resume > div > p {
         width: 532px;
         margin-top: 50px;
     }
 }
-
+*/
 .resume > div > h3 {
     margin-bottom: 10px;
 }
@@ -184,7 +183,7 @@ p {
     margin-top: 83px;
     margin-bottom: 47px;
 }
-
+/*
 @media all and (max-width: 800px) {
     .skills {
         width: 550px;
@@ -197,14 +196,14 @@ p {
         margin-right: 100px;
     }
 }
-
+*/
 .posters {
     display: flex;
     justify-content: space-between;
     margin-top: 54px;
 }
-
-@media all and (max-width: 800px) {
+/*
+@media all and (max-width: 1200px) {
     .posters,
     .logos,
     .resume {
@@ -212,36 +211,37 @@ p {
         width: 700px;
     }
 }
-
+*/
 
 .posters > img {
     max-height: 450px;
 }
-
-@media all and (max-width: 800px) {
-    .posters > img {
+/*
+@media all and (max-width: 1200px) {
+    .posters > img,
+    .logos > img {
         padding-bottom: 50px;
     }
 }
-
+*/
 .logos {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
-
+/*
 @media all and (max-width: 800px) {
     .logos {
         flex-wrap: wrap;
         width: 620px;
     }
 }
-
+*/
 
 .logos > img {
     max-height: 261px;
 }
-
+/*
 @media all and (max-width: 800px) {
     .logos > img {
         padding-bottom: 50px;
@@ -261,7 +261,7 @@ p {
         padding-top: 60px;
     }
 }
-
+*/
 #works > h3 {
     margin-top: 59px;
 }
@@ -315,10 +315,6 @@ p {
     align-items: center;
 }
 
-.email > img,
-.phone > img {
-    width: 75px;
-}
 .email > img,
 .phone > img {
     width: 75px;
